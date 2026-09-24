@@ -1,0 +1,6 @@
+# Le blocage de l'exploration est volontairement absent : si Disallow empêche
+# le robot de charger la page, il ne lit pas la balise noindex qu'elle contient,
+# et l'URL peut malgré tout être listée. C'est la balise dans la page qui fait
+# le travail. Ce fichier ne sert qu'à déclarer l'absence de sitemap.
+User-agent: *
+Allow: /
